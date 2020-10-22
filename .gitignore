@@ -1,0 +1,39 @@
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IDEA
+# ----
+!/.idea
+/.idea/*
+/.idea/codeStyles/codeStyleConfig.xml
+!/.idea/inspectionProfiles
+*/**/.idea
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/out
+/subprojects/*/*.iml
+/subprojects/*/out
+/*/build
+
+### Gradle ###
+.gradle
+.gradletasknamecache
+gradle-app.setting
+
+!gradle-wrapper.jar
+
+target/
+*.class
+
+# macOS
+# ----
+.DS_Store
+
+# Sublime Text
+# ------------
+*.sublime-*

@@ -1,0 +1,12 @@
+helpers/StringHelper.java
+ helpers.StringHelper
+services/clients/AbstractService.java
+ services.clients.AbstractService
+helpers/DataParser.java
+ helpers.DataParser
+services/clients/DevowelizerService.java
+ services.clients.DevowelizerService
+services/clients/AbstractApiClient.java
+ services.clients.AbstractApiClient
+services/clients/DevowelizerApiClient.java
+ services.clients.DevowelizerApiClient

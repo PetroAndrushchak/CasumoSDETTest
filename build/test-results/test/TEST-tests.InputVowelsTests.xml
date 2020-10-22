@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.InputVowelsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-22T08:20:13" hostname="Petros-MBP" time="0.416">
+  <properties/>
+  <testcase name="healthCheckOfTheService" classname="tests.InputVowelsTests" time="0.416"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Oct 22, 2020 11:20:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+INFO: 1 * Sending client request on thread Test worker
+1 > GET http://localhost:8080
+1 > Accept: application/json
+
+Oct 22, 2020 11:20:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+INFO: 1 * Client response received on thread Test worker
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 19
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Thu, 22 Oct 2020 08:20:14 GMT
+1 < ETag: W/"13-WJGlCQzKpl3HW8ERrfuFXE6rzNA"
+1 < X-Powered-By: Express
+Send GET to /:input
+
+]]></system-err>
+</testsuite>
